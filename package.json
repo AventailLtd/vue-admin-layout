@@ -1,0 +1,12 @@
+{
+  "name": "vue-admin-layout",
+  "version": "0.0.1",
+  "description": "Aventail Ltd. Admin layout",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AventailLtd/vue-admin-layout.git"
+  },
+  "author": "Aventail Ltd.",
+  "homepage": "https://github.com/AventailLtd/vue-admin-layout#readme",
+  "main": "index.js"
+}
