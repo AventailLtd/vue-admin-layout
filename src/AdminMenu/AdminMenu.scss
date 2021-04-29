@@ -1,0 +1,25 @@
+::v-deep .b-sidebar {
+  position: relative;
+
+  .nav-pills .nav-link {
+    border-radius: 0;
+    color: var(--nav-link-color);
+    transition: all .3s ease;
+    background-color: transparent;
+
+    &:hover {
+      transition: all .3s ease;
+      background-color: var(--nav-link-hover-bg);
+    }
+
+    &.active {
+      background-color: transparent;
+      box-shadow: inset 5px 0 0 var(--nav-link-active-color);
+
+      &:hover {
+        transition: all .3s ease;
+        background-color: var(--nav-link-hover-bg);
+      }
+    }
+  }
+}
